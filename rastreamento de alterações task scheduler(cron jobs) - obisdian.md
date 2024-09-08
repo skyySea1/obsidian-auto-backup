@@ -5,9 +5,9 @@ FUnção :LiChevronsRightLeft:
 - dispopnibilizar um botão para atualização manual
 
 ## abra o agendador de tarefas
-![[Pasted image 20240908125948.png]]
+![image](Pasted image 20240908125948.png
 crie uma tarefa:
-![[Pasted image 20240908130323.png]]
+![image](Pasted image 20240908130323.png])
 
 
 vá em ações, "novo", depois em "iniciar programa"
@@ -18,14 +18,13 @@ Em "Disparadores", defina para repetir a cada 3 dias.
 
 
 
-código
+código para arquivo batch
 
-```bash
+```batch
 cd /d C:\Users\Henrique RIbeiro\Documents\lifework
 git add .
 git commit -m "atualização automática para %date%
 git push origin master
-170017
-0 0 */3 * * /caminho/para/o/script/obsidian_push.sh
+
 
 ```
