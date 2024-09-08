@@ -37,7 +37,7 @@ Este projeto usa o **Task Scheduler** (Agendador de Tarefas) no Windows para aut
    - Escolha o arquivo de script que você criou (veja o código na seção abaixo).
 
 5. **Condições**
-   Na aba **Condições**, ative a opção "Iniciar a tarefa apenas se houver uma conexão de rede disponível". Isso evitará que o processo de push falhe por falta de conexão com a internet, prevenindo erros.
+   vá em ações, "novo", depois em "iniciar programa" selecione o arquivo que criamos depois vá em condições, e ative a função para executar apenas quando estiver com uma conexão ativa (internet), afinal você não quer dar push sem internet e receber um fatal error, não é mesmo?
 
 6. **Disparadores**
    Em **Disparadores**, configure a tarefa para ser executada **a cada 3 dias**, garantindo a periodicidade do backup.
